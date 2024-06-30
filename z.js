@@ -26,7 +26,7 @@ const generateResponse = (chatElement) => {
     const requestOptions = {
         method: "POST",
         headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/json", 
             "Authorization": `Bearer ${API_KEY}`
         },
         body: JSON.stringify({
